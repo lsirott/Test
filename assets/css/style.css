@@ -91,9 +91,14 @@ li { margin-bottom: 0.5em; }
 }
 .site-header .container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   min-height: 4rem;
+}
+.site-header .main-nav {
+  flex-basis: 100%;
+  order: 3;
 }
 .logo {
   font-weight: 700;
@@ -103,6 +108,9 @@ li { margin-bottom: 0.5em; }
   letter-spacing: 0.01em;
 }
 .logo span { color: var(--accent); }
+@media (max-width: 26rem) {
+  .logo span { display: none; }
+}
 
 .nav-toggle {
   display: inline-flex;
@@ -119,7 +127,6 @@ li { margin-bottom: 0.5em; }
 }
 .nav-toggle[aria-expanded="true"] .nav-toggle-label::after { content: "Fermer"; }
 .nav-toggle-label::after { content: "Menu"; }
-.nav-toggle-label { display: none; }
 
 .main-nav {
   display: none;
@@ -153,6 +160,7 @@ li { margin-bottom: 0.5em; }
 @media (min-width: 56rem) {
   .nav-toggle { display: none; }
   .main-nav { display: block; }
+  .site-header .main-nav { flex-basis: auto; order: 0; }
   .main-nav .container-inner { display: flex; align-items: center; gap: 1.75rem; }
   .main-nav ul {
     display: flex;
@@ -225,9 +233,9 @@ li { margin-bottom: 0.5em; }
 .list-check li::before {
   content: "";
   position: absolute;
-  left: 0; top: 0.45em;
-  width: 0.9em; height: 0.9em;
-  border: 2px solid var(--accent);
+  left: 0; top: 0.5em;
+  width: 0.7em; height: 0.7em;
+  background: var(--accent);
   border-radius: 2px;
 }
 
@@ -254,6 +262,7 @@ li { margin-bottom: 0.5em; }
   padding: 1.75rem;
   background: var(--bg-alt);
 }
+.callout h2, .callout h3 { color: var(--ink); }
 .callout .price { font-size: 1.6rem; font-weight: 700; color: var(--ink); }
 
 .placeholder-box {

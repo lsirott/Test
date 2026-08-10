@@ -29,9 +29,9 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
 - [ ] **Boîte email professionnelle `contact@sirotteau.fr`** (ou l'adresse
       choisie) — le site l'utilise partout comme email de contact ; vérifier
       qu'elle est bien créée et surveillée avant publication.
-- [ ] **Photo de Lorenzo Sirotteau** sur `/a-propos/` — remplacer le
-      bloc « Photo à ajouter » par une vraie photo (chemise, terrain, pas de
-      costume-cravate). Fichier à déposer dans `/assets/img/`.
+- [ ] **Photo de Lorenzo Sirotteau** sur `/engagements/` — remplacer le
+      bloc « Photo à ajouter » par une vraie photo (chemise, sans veste ni
+      cravate). Fichier à déposer dans `/assets/img/`.
 - [ ] **Nom de domaine** — le site est écrit pour `sirotteau.fr`
       (balises canonical, Open Graph, schema.org). Si le domaine final
       diffère, remplacer `https://www.sirotteau.fr/` dans tous les

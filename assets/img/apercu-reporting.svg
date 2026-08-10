@@ -6,7 +6,7 @@
 
   <!-- en-tête du document -->
   <rect x="0" y="0" width="600" height="56" fill="#132743"/>
-  <text x="24" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Reporting mensuel — Juillet</text>
+  <text x="24" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Reporting mensuel - Juillet</text>
   <text x="576" y="35" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#f6f4ef" text-anchor="end">Page 1 / 4</text>
 
   <!-- trois indicateurs -->
@@ -49,5 +49,5 @@
     <text x="528" y="396" text-anchor="middle">Affaire F</text>
   </g>
 
-  <text x="24" y="424" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8b877e">Exemple illustratif — données fictives, format du document remis chaque mois.</text>
+  <text x="24" y="424" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8b877e">Exemple illustratif - données fictives, format du document remis chaque mois.</text>
 </svg>

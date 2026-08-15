@@ -32,10 +32,9 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
 - [ ] **Photo de Lorenzo Sirotteau** sur `/engagements/` — remplacer le
       bloc « Photo à ajouter » par une vraie photo (chemise, sans veste ni
       cravate). Fichier à déposer dans `/assets/img/`.
-- [ ] **Nom de domaine** — le site est écrit pour `sirotteau.fr`
-      (balises canonical, Open Graph, schema.org). Si le domaine final
-      diffère, remplacer `https://www.sirotteau.fr/` dans tous les
-      fichiers `<head>`.
+- [x] **Nom de domaine** — le fichier `CNAME` pointe désormais vers
+      `sirotteau-gestion.fr` ; toutes les balises canonical, Open Graph et
+      schema.org du site ont été alignées dessus.
 - [ ] **Mesure d'audience (optionnel)** — pas de Google Analytics. Si vous
       voulez des statistiques de visite, ajouter un script Plausible ou
       Umami auto-hébergé ou hébergé en UE, sans cookie ni bannière requise.
@@ -46,6 +45,13 @@ Le site est 100 % statique (HTML/CSS + un peu de JS, sans build, sans base
 de données) : il peut être déposé tel quel sur n'importe quel hébergeur
 statique basé en France ou dans l'UE (OVH, Infomaniak, Scaleway, etc.), en
 servant chaque dossier (`/methode/`, `/offres/`…) via son `index.html`.
+
+⚠️ Le fichier `CNAME` présent à la racine indique que **GitHub Pages** est
+actuellement utilisé pour héberger le site. GitHub Pages sert le contenu
+depuis une infrastructure américaine (Fastly/GitHub, hors UE), ce qui ne
+respecte pas l'exigence « hébergement en France ou dans l'UE » du cahier
+des charges initial. À garder en tête si ce point compte encore, sinon
+aucune action requise.
 
 ## Vérifications rapides avant d'annoncer le site
 

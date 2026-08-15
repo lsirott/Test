@@ -6,19 +6,19 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
 
 ## Obligatoire avant publication
 
-- [ ] **Assurance RC professionnelle** — à souscrire en premier (elle
-      conditionne le droit d'exercer sereinement). Une fois souscrite,
-      compléter dans `/mentions-legales/index.html` : nom de l'assureur,
-      adresse, couverture géographique.
-- [ ] **Adresse professionnelle** à publier dans les mentions légales —
-      décider domicile ou domiciliation commerciale, puis remplacer le
-      placeholder dans `/mentions-legales/index.html`.
-- [ ] **SIREN / SIRET** — à ajouter dans `/mentions-legales/index.html`.
-- [ ] **Hébergeur retenu** (France ou UE, sans base de données requise) —
-      raison sociale, adresse, téléphone, dans `/mentions-legales/index.html`.
-- [ ] **Numéro de téléphone professionnel** — à ajouter en pied de page de
-      chaque fichier `index.html` (recherchez `tag-todo`) et sur `/contact/`,
-      avec un lien `tel:+33...`.
+- [ ] **SIREN / SIRET** — la page affiche « En cours d'immatriculation ».
+      Dès réception du numéro, le remplacer dans
+      `/mentions-legales/index.html` (loi pour la confiance dans
+      l'économie numérique : le SIRET doit apparaître dès qu'il est
+      délivré).
+- [ ] **Hébergeur du site** — à la demande de Lorenzo, la mention de
+      l'hébergeur a été retirée des mentions légales. Pour rester
+      conforme à la LCEN, pensez à la réintégrer (raison sociale,
+      adresse, téléphone) une fois l'hébergeur choisi.
+- [ ] **Assurance RC professionnelle** — à la demande de Lorenzo, cette
+      section a été retirée des mentions légales. L'assurance elle-même
+      reste recommandée avant toute mise en ligne effective, même si ses
+      références ne sont plus publiées sur le site.
 
 ## À configurer
 
@@ -26,7 +26,7 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
       de 20 min) dans Microsoft 365, puis remplacer
       `https://outlook.office.com/book/A-CONFIGURER/` dans
       `/contact/index.html`.
-- [ ] **Boîte email professionnelle `contact@sirotteau.fr`** (ou l'adresse
+- [ ] **Boîte email professionnelle `contact@sirotteau-gestion.fr`** (ou l'adresse
       choisie) — le site l'utilise partout comme email de contact ; vérifier
       qu'elle est bien créée et surveillée avant publication.
 - [ ] **Photo de Lorenzo Sirotteau** sur `/engagements/` — remplacer le

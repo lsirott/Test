@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var form = document.getElementById("contact-form");
   if (!form) return;
 
-  var destination = form.getAttribute("data-to") || "contact@sirotteau.fr";
+  var destination = form.getAttribute("data-to") || "contact@sirotteau-gestion.fr";
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();

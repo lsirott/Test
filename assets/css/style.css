@@ -203,6 +203,7 @@ li { margin-bottom: 0.5em; }
 .band-tight { padding: 2rem 0; }
 
 .hero { padding: 3rem 0 2.5rem; }
+.hero-home { padding-top: 5rem; }
 .hero .accent-rule {
   width: 3.5rem; height: 4px; background: var(--accent);
   border: none; margin: 0 0 1.25rem;

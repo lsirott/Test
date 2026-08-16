@@ -22,10 +22,8 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
 
 ## À configurer
 
-- [ ] **Lien Microsoft Bookings** — créer la page de réservation (créneaux
-      de 20 min) dans Microsoft 365, puis remplacer
-      `https://outlook.office.com/book/A-CONFIGURER/` dans
-      `/contact/index.html`.
+- [x] **Lien Microsoft Bookings** — branché sur `/contact/index.html`
+      (créneaux de 20 min).
 - [ ] **Boîte email professionnelle `contact@sirotteau-gestion.fr`** (ou l'adresse
       choisie) — le site l'utilise partout comme email de contact ; vérifier
       qu'elle est bien créée et surveillée avant publication.

@@ -267,9 +267,11 @@ li { margin-bottom: 0.5em; }
 .callout .price { font-size: 1.6rem; font-weight: 700; color: var(--ink); }
 
 .portrait {
-  width: 100%;
-  max-width: 260px;
-  border-radius: var(--radius);
+  width: 4cm;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 14px;
   border: 1px solid var(--border);
 }
 

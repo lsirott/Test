@@ -266,6 +266,13 @@ li { margin-bottom: 0.5em; }
 .callout h2, .callout h3 { color: var(--ink); }
 .callout .price { font-size: 1.6rem; font-weight: 700; color: var(--ink); }
 
+.portrait {
+  width: 100%;
+  max-width: 260px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
 .placeholder-box {
   border: 2px dashed var(--accent);
   background: #fbf3ea;

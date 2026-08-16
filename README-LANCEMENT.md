@@ -27,9 +27,11 @@ est repéré dans le code par un badge **« À compléter »** ou **« À config
 - [ ] **Boîte email professionnelle `contact@sirotteau-gestion.fr`** (ou l'adresse
       choisie) — le site l'utilise partout comme email de contact ; vérifier
       qu'elle est bien créée et surveillée avant publication.
-- [ ] **Photo de Lorenzo Sirotteau** sur `/engagements/` — remplacer le
-      bloc « Photo à ajouter » par une vraie photo (chemise, sans veste ni
-      cravate). Fichier à déposer dans `/assets/img/`.
+- [x] **Photo de Lorenzo Sirotteau** sur `/engagements/` — en place
+      (`/assets/img/lorenzo-sirotteau.jpg`). À noter : la photo fournie
+      est en veste, alors que le cahier des charges demandait « en
+      chemise, sans veste ni cravate » — remplacez le fichier si vous
+      préférez une photo plus proche de cette consigne.
 - [x] **Nom de domaine** — le fichier `CNAME` pointe désormais vers
       `sirotteau-gestion.fr` ; toutes les balises canonical, Open Graph et
       schema.org du site ont été alignées dessus.
